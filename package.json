@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "name": "gitwordl",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "devDependencies": {
+    "jshint": "^2.13.4",
+    "nodemon": "^2.0.16"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-schedule": "^2.1.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8",
+    "uuid-random": "^1.3.2"
+  }
+}
